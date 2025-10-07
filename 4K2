@@ -3,7 +3,7 @@
   "wallpaper": "https://xn--11x805d.xn--4kq62z5rby2qupq9ub.xyz/",
   "warningText": "仅作学习交流测试使用，配置或下载后请于24小时之内删除",
   "lives": [
-     {
+         {
       "name": "🐅live",
       "type": 0,
       "url": "https://live.catvod.com/tv.m3u",
@@ -325,50 +325,6 @@
       "api": "http://103.45.162.207:25252/仅供测试/lib/drpy2.min.js",
       "ext": "http://103.45.162.207:25252/仅供测试/lib/养生.js"
     },
-   {
-      "key": "小蚂蚁",
-      "name": "小蚂蚁",
-      "jar": "https://gitee.com/yiwu369/6758/raw/master/jar/pg.jar",
-      "type": 1,
-      "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/",
-      "searchable": 1,
-      "changeable": 1,
-      "categories": [
-        "国产剧",
-        "科幻片",
-        "战争片",
-        "动作片",
-        "喜剧片",
-        "恐怖片",
-        "悬疑片",
-        "爱情片",
-        "剧情片",
-        "纪录片",
-        "伦理片",
-        "短剧",
-        "欧美剧",
-        "韩剧",
-        "日剧",
-        "港剧",
-        "台剧",
-        "泰剧",
-        "海外剧",
-        "大陆综艺",
-        "日韩综艺",
-        "港台综艺",
-        "欧美综艺",
-        "国产动漫",
-        "动画片",
-        "港台动漫",
-        "海外动漫",
-        "演唱会",
-        "体育赛事",
-        "篮球",
-        "足球",
-        "斯诺克",
-        "影视解说"
-      ]
-    },
     {
       "key": "网盘虎斑",
       "name": "虎斑|4k网盘",
@@ -526,14 +482,6 @@
       "ext": "http://154.219.113.13:12121/json/app.txt"
     },
     {
-      "key": "原盘",
-      "name": "原盘|4K弹幕",
-      "type": 3,
-      "jar": "http://125.208.22.184:6698/uploads/tvbox/jar/spider2.jar",
-      "api": "csp_AppYsV2",
-      "ext": "http://111.170.151.121:9578/appz.php?url=http://127.0.0/api.php/app/"
-    },
-  {
       "key": "魔尊",
       "name": "重楼|4K弹幕",
       "type": 3,
@@ -1003,7 +951,7 @@
     {
       "name": "虎斑XM",
       "type": 1,
-      "url": "http://sspa8.top:8100/api/?key=%E6%98%9F%E8%89%BA%E5%BD%B1%E8%A7%86&url=",
+      "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=getXmflvjx&url=",
       "ext": {
         "header": {
           "Accept": "*/*",
@@ -1014,17 +962,17 @@
     {
       "name": "虎斑szy",
       "type": 1,
-      "url": "http://sspa8.top:8100/api/?key=%E6%99%93%E5%AE%87&url="
+      "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=getszyjx&url="
     },
     {
       "name": "虎斑mt4K",
       "type": 1,
-      "url": "https://niiuma.qi-simple.top/niuma.php?key=QyWZEzLpAfTI8Fb5&url="
+      "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=getmgtvjx&url="
     },
     {
       "name": "虎斑HJ",
       "type": 1,
-      "url": "http://14.103.129.80:9898/home/api?type=ys&uid=57124&key=akoqstuxABDJKMSU34&url="
+      "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=gethuajx&url="
     },
     {
       "name": "虎斑WS",
