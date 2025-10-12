@@ -1,187 +1,406 @@
-{
-  "spider": "http://ok.lfytv.cn/fm.jar;md5;b40f328ddc5becefbfca81db7bdca250",
-  "wallpaper": "http://ceshi.xn--z7x900a.com/ppic/feimao.php",
-  "logo": "http://ceshi.xn--z7x900a.com/panda/0262.png",
-  "sites": [
-    {
-      "key": "csp_appys_臻彩",
-      "name": "4K臻彩世界",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cms4ksj.lyyytv.cn/api.php/app/"
-    },
-    {
-      "key": "csp_appys_天堂",
-      "name": "电影┃天堂",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://ghfast.top/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/txt"
-    },
-    {
-      "key": "csp_LiteApple",
-      "name": "苹果┃影视",
-      "type": 3,
-      "api": "csp_LiteApple",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "酷狗",
-      "name": "🐾┃酷狗┃音乐",
-      "type": 3,
-      "api": "csp_Kugou",
-      "playerType": 2,
-      "ext": {
-        "classes": [
-          {
-            "type_name": "酷狗",
-            "type_id": "kugou"
-          }
-        ]
-      }
-    },
-    {
-      "key": "儿童",
-      "name": "📚┃儿童┃启蒙",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "ext": "./lib/兔小贝.js"
-    },
-    {
-      "key": "少儿",
-      "name": "📚┃少儿┃教育",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "ext": "./lib/少儿教育.json"
-    },
-    {
-      "key": "小学",
-      "name": "📚┃小学┃课堂",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "ext": "./lib/小学课堂.json"
-    },
-    {
-      "key": "初中",
-      "name": "📚┃初中┃课堂",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "ext": "./lib/初中课堂.json"
-    },
-    {
-      "key": "高中",
-      "name": "📚┃高中┃课堂",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "ext": "./lib/高中课堂.json"
-    },
-    {
-      "key": "push_agent",
-      "name": "Q群：641784680",
-      "type": 3,
-      "api": "csp_Push",
-      "playerType": "1",
-      "searchable": 0,
-      "ext": ".json/txt/ken.txt"
-    }
-  ],
-  "parses": [
-    {
-      "name": "Json聚合",
-      "type": 3,
-      "url": "Demo"
-    },
-    {
-      "name": "Web聚合",
-      "type": 3,
-      "url": "Web"
-    },
-    {
-      "name": "网络",
-      "type": 1,
-      "url": "https://jx.bhs6.com/api/?key=3b0f9783d81fb21a99db6bf161fac26d&url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "tucheng",
-          "sohu",
-          "搜狐",
-          "letv",
-          "乐视",
-          "mgtv",
-          "芒果",
-          "tnmb",
-          "seven",
-          "yzm",
-          "aliyun",
-          "RJuMao",
-          "bilibili",
-          "1905",
-          "xinvip",
-          "XAL",
-          "qiqi",
-          "XALS",
-          "YuMi-vip"
-        ]
-      }
-    }
-  ],
-  "lives": [
-    {
-      "name": "live",
-      "type": 0,
-      "playerType": 1,
-      "url": "http://zb.lyyytv.cn/1314.m3u",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    }
-  ]
+# coding=utf-8
+# !/usr/bin/python
+
+import requests
+from bs4 import BeautifulSoup
+import re{
+	"wallpaper": "https://深色壁纸.xxooo.cf/",
+	"lives": [
+	],
+	"logo": "https://img.zcool.cn/community/012783554446430000019ae908b842.gif",
+	"sites": [
+	    
+		{
+			"api": "http://chaoqianys.top:81",
+			"ext": {
+				"thread": "10"
+			},
+			"filterable": 10,
+			"key": "py_失效",
+			"name": "激活请加微信：微信号：cq527213 ",
+			"quickSearch": 1,
+			"searchable": 1,
+			"type": 3
+		}
+	],
+	"doh": [
+		{
+			"name": "Google",
+			"url": "https://dns.google/dns-query",
+			"ips": [
+				"8.8.4.4",
+				"8.8.8.8"
+			]
+		},
+		{
+			"name": "Cloudflare",
+			"url": "https://cloudflare-dns.com/dns-query",
+			"ips": [
+				"1.1.1.1",
+				"1.0.0.1",
+				"2606:4700:4700::1111",
+				"2606:4700:4700::1001"
+			]
+		},
+		{
+			"name": "AdGuard",
+			"url": "https://dns.adguard.com/dns-query",
+			"ips": [
+				"94.140.14.140",
+				"94.140.14.141"
+			]
+		},
+		{
+			"name": "DNSWatch",
+			"url": "https://resolver2.dns.watch/dns-query",
+			"ips": [
+				"84.200.69.80",
+				"84.200.70.40"
+			]
+		},
+		{
+			"name": "Quad9",
+			"url": "https://dns.quad9.net/dns-quer",
+			"ips": [
+				"9.9.9.9",
+				"149.112.112.112"
+			]
+		}
+	],
+	"rules": [
+		{
+			"name": "proxy",
+			"hosts": [
+				"raw.githubusercontent.com",
+				"googlevideo.com",
+				"cdn.v82u1l.com",
+				"cdn.iz8qkg.com",
+				"cdn.kin6c1.com",
+				"c.biggggg.com",
+				"c.olddddd.com",
+				"haiwaikan.com",
+				"www.histar.tv",
+				"youtube.com",
+				"uhibo.com",
+				".*boku.*",
+				".*nivod.*",
+				"*.t4tv.hz.cz",
+				".*ulivetv.*"
+			]
+		},
+		{
+			"host": "www.djuu.com",
+			"rule": [
+				"mp4.djuu.com",
+				"m4a"
+			]
+		},
+		{
+			"host": "www.sharenice.net",
+			"rule": [
+				"huoshan.com",
+				"/item/video/"
+			],
+			"filter": []
+		},
+		{
+			"host": "www.sharenice.net",
+			"rule": [
+				"sovv.qianpailive.com",
+				"vid="
+			],
+			"filter": []
+		},
+		{
+			"host": "www.sharenice.net",
+			"rule": [
+				"douyin.com",
+				"/play/"
+			]
+		},
+		{
+			"host": "m.ysxs8.vip",
+			"rule": [
+				"ysting.ysxs8.vip:81",
+				"xmcdn.com"
+			],
+			"filter": []
+		},
+		{
+			"host": "hdmoli.com",
+			"rule": [
+				".m3u8"
+			]
+		},
+		{
+			"host": "https://api.live.bilibili.com",
+			"rule": [
+				"bilivideo.com",
+				"/index.m3u8"
+			],
+			"filter": [
+				"data.bilibili.com/log/web",
+				"i0.hdslb.com/bfs/live/"
+			]
+		},
+		{
+			"host": "www.agemys.cc",
+			"rule": [
+				"cdn-tos",
+				"obj/tos-cn"
+			]
+		},
+		{
+			"host": "www.fun4k.com",
+			"rule": [
+				"https://hd.ijycnd.com/play",
+				"index.m3u8"
+			]
+		},
+		{
+			"host": "zjmiao.com",
+			"rule": [
+				"play.videomiao.vip/API.php",
+				"time=",
+				"key=",
+				"path="
+			]
+		},
+		{
+			"name": "火山嗅探",
+			"hosts": [
+				"huoshan.com"
+			],
+			"regex": [
+				"item_id="
+			]
+		},
+		{
+			"name": "抖音嗅探",
+			"hosts": [
+				"douyin.com"
+			],
+			"regex": [
+				"is_play_url="
+			]
+		},
+		{
+			"name": "農民嗅探",
+			"hosts": [
+				"toutiaovod.com"
+			],
+			"regex": [
+				"video/tos/cn"
+			]
+		},
+		{
+			"name": "夜市",
+			"hosts": [
+				"yeslivetv.com"
+			],
+			"script": [
+				"document.getElementsByClassName('vjs-big-play-button')[0].click()"
+			]
+		},
+		{
+			"name": "毛驢",
+			"hosts": [
+				"www.maolvys.com"
+			],
+			"script": [
+				"document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
+			]
+		},
+		{
+			"name": "磁力广告",
+			"hosts": [
+				"magnet"
+			],
+			"regex": [
+				"更多",
+				"社 區",
+				"x u u",
+				"最 新",
+				"直 播",
+				"更 新",
+				"社 区",
+				"有 趣",
+				"英皇体育",
+				"全中文AV在线",
+				"澳门皇冠赌场",
+				"哥哥快来",
+				"美女荷官",
+				"裸聊",
+				"新片首发",
+				"UUE29"
+			]
+		}
+	],
+	"parses": [
+		{
+			"name": "聚合",
+			"type": 3,
+			"url": "Demo"
+		},
+		{
+			"name": "web",
+			"type": 3,
+			"url": "Web"
+		},
+		{
+			"name": "看看",
+			"type": 0,
+			"url": "https://jx.m3u8.pw/?url=",
+			"ext": {
+				"flag": [
+					"qq",
+					"腾讯",
+					"qiyi",
+					"爱奇艺",
+					"奇艺",
+					"youku",
+					"优酷",
+					"mgtv",
+					"芒果",
+					"imgo",
+					"letv",
+					"乐视",
+					"pptv",
+					"PPTV",
+					"sohu",
+					"bilibili",
+					"哔哩哔哩",
+					"哔哩"
+				],
+				"header": {
+					"User-Agent": "okhttp/4.1.0"
+				}
+			}
+		},
+		{
+			"name": "FreeOK",
+			"type": 0,
+			"url": "https://play.86516.tk/OKPlayer/?url=",
+			"ext": {
+				"flag": [
+					"qq",
+					"腾讯",
+					"qiyi",
+					"爱奇艺",
+					"奇艺",
+					"youku",
+					"优酷",
+					"mgtv",
+					"芒果",
+					"imgo",
+					"letv",
+					"乐视",
+					"pptv",
+					"PPTV",
+					"sohu",
+					"bilibili",
+					"哔哩哔哩",
+					"哔哩"
+				],
+				"header": {
+					"User-Agent": "okhttp/4.1.0"
+				}
+			}
+		},
+		{
+			"name": "free",
+			"type": 0,
+			"url": "https://h5.freejson.xyz/player/?url=",
+			"ext": {
+				"flag": [
+					"qq",
+					"腾讯",
+					"qiyi",
+					"爱奇艺",
+					"奇艺",
+					"youku",
+					"优酷",
+					"mgtv",
+					"芒果",
+					"imgo",
+					"letv",
+					"乐视",
+					"pptv",
+					"PPTV",
+					"sohu",
+					"bilibili",
+					"哔哩哔哩",
+					"哔哩"
+				],
+				"header": {
+					"User-Agent": "okhttp/4.1.0"
+				}
+			}
+		}
+	],
+	"spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1723796067885/xiaoya_proxy_2.jar"
 }
+from base.spider import Spider
+import sys
+import json
+sys.path.append('..')
+
+class Spider(Spider):
+
+
+    def getName(self):
+        return "首页"
+
+    def init(self, extend):
+       1
+
+    def isVideoFormat(self, url):
+        1
+
+    def manualVideoCheck(self):
+        1
+
+
+    def homeContent(self, filter):
+        result = {}
+        result['class'] = []
+        result['class'].append({'type_id': 1, 'type_name': '您的设备未激活或已经到期!请联系管理续费!'})
+        return result
+    def homeVideoContent(self):
+
+        videos = [1]
+
+        video = {
+            "vod_id": "1",
+            "vod_name": '您的设备未激活或已经到期!请联系管理续费!',
+            "vod_pic": 'https://img0.baidu.com/it/u=414935846,667722768&fm=253&fmt=auto&app=138&f=JPEG?w=826&h=1',
+            "vod_remarks": ''
+        }
+        videos.append(video)
+        result = {'list': videos}
+        return result
+
+
+    def categoryContent(self, cid, pg, filter, ext):
+        1
+
+    def detailContent(self, ids):
+        1
+
+    def playerContent(self, flag, id, vipFlags):
+        1
+
+    def searchContentPage(self, key, quick, page):
+        1
+
+    def searchContent(self, key, quick):
+        return self.searchContentPage(key, quick, '1')
+
+    def localProxy(self, params):
+        if params['type'] == "m3u8":
+            return self.proxyM3u8(params)
+        elif params['type'] == "media":
+            return self.proxyMedia(params)
+        elif params['type'] == "ts":
+            return self.proxyTs(params)
+        return None
