@@ -353,6 +353,8 @@
       "type": 3,
       "api": "csp_HBconfig"
     },
+    
+
      {
       "key": "tenteng",
       "name": "💖随缘①💖真4k",
@@ -790,16 +792,7 @@
 
   ],
   "parses": [
-    {
-      "name": "解析聚合",
-      "type": 3,
-      "url": "Demo"
-    },
-    {
-      "name": "Json轮询",
-      "type": 2,
-      "url": "Sequence"
-    },
+   
     {
       "name": "自定：请先设置",
       "type": 1,
