@@ -40,12 +40,12 @@
       "quickSearch": 0,
       "changeable": 0
     },
-    {
+       {
       "key": "config",
       "name": "🚀辅助┃配置┃中心",
       "type": 3,
       "api": "csp_Config",
-      "jar": "http://我不是.摸鱼儿.com/d/moyuer.php;md5;bf6103fb145b9d4f5e376cef49ee4ee7",
+      "jar": "http://我不是.摸鱼儿.com/d/moyuer.php;md5;dbe639527df26d6a0fd4f7c9256be475",
       "searchable": 0,
       "quickSearch": 0,
       "style": {
@@ -181,6 +181,7 @@
       "changeable": 0,
       "timeout": 60,
       "ext": "http://我不是.摸鱼儿.com/json/lb.json"
+
     },
     {
       "key": "QuarkzzV2",
@@ -192,6 +193,7 @@
       "filterable": 0,
       "changeable": 0,
       "timeout": 60,
+      "cookie": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/txt",
       "ext": "http://我不是.摸鱼儿.com/json/zz.json"
     },
     {
@@ -1750,3 +1752,12 @@
     "static-mozai.4gtv.tv"
   ]
 }
+
+
+
+
+
+
+
+
+
