@@ -258,7 +258,7 @@
       "name": "🐅电视家",
       "type": 0,
       "playerType": 1,
-      "url": "https://git.acwing.com/bang359/ba/-/raw/main/dsj4.16.txt",
+      "url": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
       "ua": "okhttp/3.15",
       "epg": "http://epg.hackserver.net/epg.php",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
@@ -457,9 +457,68 @@
       "type": 3,
       "api": "csp_HBT4",
       "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qUTROall2ZEdWemRDNXdhSEEvYzJsMFpUMXZkV2RsSXlNamIzVm5aUT09"
-     
     },
-
+   {
+      "key": "配置中心",
+      "name": "❤网盘授权配置｜中心",
+      "type": 3,
+      "api": "csp_Config",
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/xif.jar",
+      "searchable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      }
+    },
+    {
+      "key": "玩偶哥哥",
+      "name": "❤玩偶｜4K",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/xif.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": "http://14.103.129.80:999/奇迹云2kmax/lib/wogg.json"
+    },
+    {
+      "key": "木偶",
+      "name": "❤木偶｜4K",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/xif.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": "http://14.103.129.80:999/奇迹云2kmax/lib/mogg.json"
+    },
+    {
+      "key": "蜡笔",
+      "name": "❤蜡笔｜4K",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/xif.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": "http://14.103.129.80:999/奇迹云2kmax/lib/lb.json"
+    },
+    {
+      "key": "至臻",
+      "name": "❤至臻｜4K",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/xif.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": "http://14.103.129.80:999/奇迹云2kmax/lib/zz.json"
+    },
     {
       "key": "d'd",
       "name": "修罗|弹幕",
