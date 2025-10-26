@@ -12,6 +12,7 @@
     }
   ],
   "sites": [
+
     {
       "key": "腾讯弹幕",
       "name": "📢🌈腾腾4K",
@@ -27,6 +28,13 @@
       "searchable": 1,
       "api": "http://47.122.84.123:8808/tvbox/gitee/zokzishi-master/xs/js/drpy2.min.js",
       "ext": "https://gitee.com/zhouyadong7033/box/raw/master/JS/%E7%99%BE%E5%BF%99.js"
+    },
+ {
+      "key": "哔哩哔哩",
+      "name": "📢🌈哔哩哔哩4K",
+      "type": 3,
+      "api": "http://140.210.9.53:6789//lib/drpy2.min.js",
+      "ext": "http://140.210.9.53:6789//lib/哔哩哔哩.js"
     },
     {
       "key": "五大采集平台",
@@ -327,6 +335,13 @@
         "分类url": "https://www.psmp3.com/{cateId}/{catePg}.html;;av",
         "分类": "袁阔成$ykc#单田芳$stf#田连元$tly#刘兰芳$llf#连丽如$llr#张少佐$zsz#田战义$tzy"
       }
+    },
+    {
+      "key": "设置",
+      "name": "💖网弹|设置",
+      "type": 3,
+      "jar":"http://103.45.162.207:25252/仅供测试/custom_spider.jar",
+      "api": "csp_HBconfig"
     }
   ],
   "hosts": [
@@ -337,21 +352,16 @@
     "cache.ott.hnbblive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com"
   ],
   "parses": [
-   
-   {
+    {
       "name": "4K",
       "type": 1,
-      "url": "https://zhuimi.xn--v4q818bf34b.com/moyu/zhuimi?token=zDF5A1sn&url="
+      "url": "http://167.234.211.77:4207/api/?key=XkIbVVBdUCUBEf2zlv&url="
     },
-   {
+ 
+     {
       "name": "4K1",
       "type": 1,
-      "url": "http://210.16.170.84:8011/api/?key=jj9PIIhkixwgkAg2rZ&url="
-    },
-    {
-      "name": "4K2",
-      "type": 1,
-      "url": "http://167.234.211.77:4207/api/?key=XkIbVVBdUCUBEf2zlv&url="
+      "url": "http://sspa8.top:8100/api/?key=%E6%99%93%E5%AE%87&url="
     }
   
   ],
