@@ -2,41 +2,40 @@
   "spider": "https://gitee.com/yuan301/tv/raw/master/A/xs.jar",
   "wallpaper": "https://gitee.com/zhouyadong7033/box/raw/master/JS/Y3.webp",
   "warningText": "欢迎使用火焰TV，祝您观影愉快",
-  "lives": [
-    {
-      "name": "4K线路",
+    "lives": [
+      
+      
+                {
+     "name": "4K线路",
       "type": 0,
       "url": "https://gongdian.top/tv/iptv",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     }
   ],
+  
   "sites": [
+ 
+     
+   
+                  {
+            "key": "腾讯弹幕",
+            "name": "📢🌈腾腾4K",
+            "searchable": 1,
+            "type": 3,
+            "api": "http://47.122.84.123:8808/tvbox/gitee/zokzishi-master/xs/js/drpy2.min.js",
+            "ext": "https://gitee.com/zhouyadong7033/box/raw/master/JS/%E8%85%BE%E8%AE%AF%E5%BC%B9%E5%B9%95.js"
+        },
+        {
+            "key": "茫茫",
+            "name": "📢🌈果果4K",
+            "type": 3,
+            "searchable": 1,
+            "api": "http://47.122.84.123:8808/tvbox/gitee/zokzishi-master/xs/js/drpy2.min.js",
+            "ext": "https://gitee.com/zhouyadong7033/box/raw/master/JS/%E7%99%BE%E5%BF%99.js"
+        },
 
-    {
-      "key": "腾讯弹幕",
-      "name": "📢🌈腾腾4K",
-      "searchable": 1,
-      "type": 3,
-      "api": "http://47.122.84.123:8808/tvbox/gitee/zokzishi-master/xs/js/drpy2.min.js",
-      "ext": "https://gitee.com/zhouyadong7033/box/raw/master/JS/%E8%85%BE%E8%AE%AF%E5%BC%B9%E5%B9%95.js"
-    },
-    {
-      "key": "茫茫",
-      "name": "📢🌈果果4K",
-      "type": 3,
-      "searchable": 1,
-      "api": "http://47.122.84.123:8808/tvbox/gitee/zokzishi-master/xs/js/drpy2.min.js",
-      "ext": "https://gitee.com/zhouyadong7033/box/raw/master/JS/%E7%99%BE%E5%BF%99.js"
-    },
- {
-      "key": "哔哩哔哩",
-      "name": "📢🌈哔哩哔哩4K",
-      "type": 3,
-      "api": "http://140.210.9.53:6789//lib/drpy2.min.js",
-      "ext": "http://140.210.9.53:6789//lib/哔哩哔哩.js"
-    },
-    {
+         {
       "key": "五大采集平台",
       "name": "📢🌈聚合4K",
       "type": 3,
@@ -47,50 +46,48 @@
       "playerType": 2,
       "ext": "http://39.105.18.5:5565/api.php/app/"
     },
-    {
+
+
+
+ {
       "key": "5095玩偶",
-      "name": "📢🌈玩偶4K",
+       "name": "📢🌈玩偶4K",
       "type": 3,
-      "jar": "https://gitee.com/zhouyadong7033/box/raw/master/KXG4K.jar",
-      "api": "csp_KXG4K",
+   "jar":"https://gitee.com/zhouyadong7033/box/raw/master/KXG4K.jar",
+     "api": "csp_KXG4K",
       "ext": "YUhSMGNEb3ZMekUyTnk0eU16UXVNakV4TGpjM09qY3dNemt2UVVFeE1qTXZORXN2WVhCcExuQm9jRDl6YVhSbFBYZHZaMmNqSXlOM2IyZG4="
     },
-    {
+    
+
+                {
       "key": "yanshi1",
       "name": "📢🌈哥哥4K",
       "type": 3,
-      "jar": "http://123.207.224.130:7033/ZC4K.jar",
+       "jar":"http://123.207.224.130:7033/ZC4K.jar",
       "api": "csp_ZC4K",
       "ext": "YUhSMGNEb3ZMekV5TXk0eU1EY3VNakkwTGpFek1EbzNNRE16TDJGd2FTNXdhSEEvYzJsMFpUMXZkV2RsSXlNamIzVm5aUT09"
-    },
-    {
+    },               
+                    {
       "key": "zhizhen",
       "name": "📢🌈臻彩4K",
       "type": 3,
-      "jar": "http://123.207.224.130:7033/ZC4K.jar",
-      "api": "csp_ZC4K",
+      "jar":"http://123.207.224.130:7033/ZC4K.jar",
+     "api": "csp_ZC4K",
       "ext": "YUhSMGNEb3ZMekV5TXk0eU1EY3VNakkwTGpFek1EbzNNRE16TDJGd2FTNXdhSEEvYzJsMFpUMXRhV2hrY2lNakkyMXBhR1J5"
-    },
+    }, 
     {
       "key": "muou",
-      "name": "📢🌈木偶臻彩4K",
+       "name": "📢🌈木偶臻彩4K",
       "type": 3,
-      "jar": "http://123.207.224.130:7033/ZC4K.jar",
-      "api": "csp_ZC4K",
+      "jar":"http://123.207.224.130:7033/ZC4K.jar",
+    "api": "csp_ZC4K",
       "ext": "YUhSMGNEb3ZMekV5TXk0eU1EY3VNakkwTGpFek1EbzNNRE16TDJGd2FTNXdhSEEvYzJsMFpUMXRkVzkxSXlNamJYVnZkUT09"
     },
-    {
-      "key": "lvdo",
-      "name": "🥇小风┃1080",
-      "type": 3,
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "api": "csp_AppYsV2",
-      "ext": "http://m.xiaofengtv.com/api.php/app/"
-    },
-    {
+
+       {      "key": "lvdo",       "name": "🥇小风┃1080",       "type": 3,       "playerType": 2,       "searchable": 1,       "quickSearch": 1,       "filterable": 1,       "api": "csp_AppYsV2",  
+          
+          "ext": "http://m.xiaofengtv.com/api.php/app/"    },
+              {
       "key": "drjs_金牌",
       "name": "❤️金牌┃1080",
       "type": 3,
@@ -100,7 +97,8 @@
       "quickSearch": 0,
       "ext": "https://cnb.cool/zhyadc/YsBox/-/git/raw/main/drpy_js/金牌[优].js"
     },
-    {
+       
+      {
       "key": "巧技",
       "name": "🚗巧巧┃1080",
       "type": 3,
@@ -109,6 +107,8 @@
       "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1749917849270/0615qj.jpg;md5;410ad21caad9e6f6d40c1ae5ca2be662",
       "ext": "7lj763gg402i79425739i7jghj118797l4hj840gi18633331l4708g2h7145403549g44l8ii56i187681hkjj3hhgh1ih3l32j250lk1k786lj20j468hk3hli4l46gig4i3g7g2722328j0136h01i7g5183k22k7gg3i72hk81gl8k9839kl7i0707"
     },
+
+
     {
       "key": "采集资源",
       "name": "💞追剧┃1080P💞",
@@ -119,6 +119,7 @@
       "filterable": 1,
       "ext": "http://caiji.zhituyingshi.top:92/api.php/app/"
     },
+
     {
       "key": "热播影视",
       "name": "🔥热剧┃1080P",
@@ -131,6 +132,8 @@
         "url": "http://v.rbotv.cn"
       }
     },
+
+
     {
       "key": "瓜子影视",
       "name": "🍉瓜子┃1080P",
@@ -150,19 +153,9 @@
       "quickSearch": 1,
       "ext": ""
     },
-    {
-      "key": "看球",
-      "name": "⚾┃看球┃直播",
-      "type": 3,
-      "api": "csp_Kanqiu",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "gridview": 3,
-      "style": {
-        "type": "list"
-      }
-    },
+
+{"key":"看球","name":"⚾┃看球┃直播","type":3,"api":"csp_Kanqiu","searchable":1,"quickSearch":1,"changeable":0,"gridview":3,"style":{"type":"list"}},
+
     {
       "key": "88看球",
       "name": "88｜看球",
@@ -173,6 +166,7 @@
         "type": "list"
       }
     },
+
     {
       "key": "少儿教育",
       "name": "少儿｜教育",
@@ -255,6 +249,7 @@
       },
       "gridview": "0-0-4.1"
     },
+
     {
       "key": "相声",
       "name": "📻相声┃BPQ",
@@ -290,7 +285,7 @@
         "分类": "郭德纲$gdg#德云社$dys#新势力$xsxsl#青区社$qqs#马三立$msl#更多$xsmj"
       }
     },
-    {
+        {
       "key": "兴趣培养",
       "name": "儿童兴趣培养",
       "type": 3,
@@ -335,15 +330,11 @@
         "分类url": "https://www.psmp3.com/{cateId}/{catePg}.html;;av",
         "分类": "袁阔成$ykc#单田芳$stf#田连元$tly#刘兰芳$llf#连丽如$llr#张少佐$zsz#田战义$tzy"
       }
-    },
-    {
-      "key": "设置",
-      "name": "💖网弹|设置",
-      "type": 3,
-      "jar":"http://103.45.162.207:25252/仅供测试/custom_spider.jar",
-      "api": "csp_HBconfig"
     }
+
+
   ],
+ 
   "hosts": [
     "cache.ott.ystenlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
     "cache.ott.bestlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
@@ -352,16 +343,12 @@
     "cache.ott.hnbblive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com"
   ],
   "parses": [
+   
+
     {
       "name": "4K",
       "type": 1,
       "url": "http://167.234.211.77:4207/api/?key=XkIbVVBdUCUBEf2zlv&url="
-    },
- 
-     {
-      "name": "4K1",
-      "type": 1,
-      "url": "http://sspa8.top:8100/api/?key=%E6%99%93%E5%AE%87&url="
     }
   
   ],
