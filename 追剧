@@ -452,7 +452,12 @@
   ],
   "sites": [
 
-
+    {
+      "key": "设置",
+      "name": "💖网弹|设置",
+      "type": 3,
+      "api": "csp_HBconfig"
+    },
      {
       "key": "tenteng",
       "name": "💖随缘①💖真4k",
@@ -890,7 +895,7 @@
       "name": "自定1",
       "type": 1,
       "url": "https://sk.69mzf.com/api/index?parsesId=661&appid=86321&videoUrl="
-    } 
+    }
 
   
   ],
