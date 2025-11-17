@@ -493,8 +493,8 @@
         "p123token": "http://127.0.0.1:9978/file/TVBox/p123token.txt",
         "token": "http://127.0.0.1:9978/file/TVBox/Altoken.txt",
         "cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/ck.txt",
-        "uccookie": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/txt",
-        "tuctoken": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/txt",
+        "uccookie": "",
+        "tuctoken": "",
         "site": "https://wogg.xxooo.cf/"
       }
     },
@@ -895,8 +895,12 @@
       "name": "自定1",
       "type": 1,
       "url": "https://sk.69mzf.com/api/index?parsesId=661&appid=86321&videoUrl="
+    },
+   {
+      "name": "自定2",
+      "type": 1,
+      "url": "http://125.208.22.226:6758/api/index?parsesId=24&appid=10004&videoUrl="
     }
-
   
   ],
   "flags": [
