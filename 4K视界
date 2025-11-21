@@ -51,15 +51,7 @@
       "ua": "okHttp/Mod-1.4.0.0",
       "epg": "http://iptv.52sw.top:668/?ch={name}&date={date}"
     },
-  {
-      "name": "🐅mytv",
-      "type": 0,
-      "url": "http://xtvantsc.xyz/mytv.m3u",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.hackserver.net/epg.php",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
+
 
   {
     "name": "马来大佬",
@@ -330,34 +322,15 @@
       "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}",
       "logo": "http://diyp2.112114.xyz/logo/{name}.png"
     }
-   
-    
- 
-
   ],
   "sites": [
-    {
-      "key": "drpy_js_豆瓣",
-      "name": "💖|豆瓣",
-      "type": 3,
-      "api": "csp_Douban",
-      "ext": "http://103.45.162.207:25252/仅供测试/lib/douban.json"
-    },
-   
-    {
-      "key": "测试",
-      "name": "💖应用|更新",
-      "type": 3,
-      "api": "csp_Market",
-      "ext": "aHR0cHM6Ly84OTI0LmtzdG9yZS5zcGFjZS9odWJhbi9tYXJrLmpzb24="
-    },
+
     {
       "key": "设置",
       "name": "💖网弹|设置",
       "type": 3,
       "api": "csp_HBconfig"
     },
-
      {
       "key": "tenteng",
       "name": "💖随缘①💖真4k",
@@ -379,8 +352,6 @@
       "api": "http://140.210.9.53:6789//lib/drpy2.min.js",
       "ext": "http://140.210.9.53:6789//lib/哔哩哔哩.js"
     },
-
-
     {
       "key": "网盘虎斑",
       "name": "💖虎斑💖4k网盘",
@@ -389,10 +360,10 @@
       "api": "csp_Mogg",
       "ext": {
         "tyitoken": "http://127.0.0.1:9978/file/TVBox/tyitoken.txt",
-        "bdcookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/z_bd.js",
+        "ducookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/z_bd.js",
        "p123token": "http://127.0.0.1:9978/file/TVBox/p123token.txt",
         "token": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/z_qk.js",
-        "cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/z_bd.js",
+        "cookie": "",
         "uctoken": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/z_uc.js",
         "tuctoken": "",
         "site": "http://103.45.162.207:20720"
@@ -410,7 +381,7 @@
         "ducookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/z_bd.js",
         "p123token": "http://127.0.0.1:9978/file/TVBox/p123token.txt",
         "token": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/z_qk.js",
-        "cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/z_bd.js",
+        "cookie": "",
         "uctoken": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/z_uc.js",
         "tuctoken": "",
         "site": "https://wogg.xxooo.cf/"
@@ -797,28 +768,10 @@
 
   ],
   "parses": [
-    {
-      "name": "解析聚合",
-      "type": 3,
-      "url": "Demo"
-    },
-    {
-      "name": "Json轮询",
-      "type": 2,
-      "url": "Sequence"
-    },
-    {
-      "name": "自定：请先设置",
-      "type": 1,
-      "url": "http://zhuimi.xn--v4q818bf34b.com/moyu/zhuimi?token=zH8F6xvs&url="
-    },
+ 
+ 
+ 
 
-  
-   {
-      "name": "自定1",
-      "type": 1,
-      "url": "https://sk.69mzf.com/api/index?parsesId=661&appid=86321&videoUrl="
-    }
   
   ],
   "flags": [
