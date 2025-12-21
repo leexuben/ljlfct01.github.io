@@ -362,7 +362,25 @@
       "api": "csp_HBcms10Dou",
       "ext": "https://zy.sh0o.cn/api.php/provide/vod/from/mgtv/"
     },
-
+    {
+      "key": "新腾极4k",
+      "name": "4k臻彩腾讯",
+      "type": 3,
+      "api": "https://gitee.com/ltby1/one/raw/master/lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "changeable": 0,
+      "ext": "http://14.103.129.80:999/暗黑4k奇迹/lib/暗黑4k奇迹.js"
+    },
+    {
+      "key": "芒果弹幕",
+      "name": "4k臻彩芒果",
+      "type": 3,
+      "api": "https://gitee.com/ltby1/one/raw/master/lib/drpy2.min.js",
+      "ext": "http://14.103.129.80:999/暗黑4k奇迹/lib/暗黑4k奇迹mg.js"
+    },
     {
       "key": "二小",
       "name": "🦢爱看┃二小┃4K",
@@ -685,7 +703,7 @@
     {
       "name": "自定1",
       "type": 1,
-      "url": "https://shybot.top/v2/video/jx/?shykey=4595a71a4e7712568edcfa43949236b42fcfcb04997788ebe7984d6da2c6a51c&qn=max&url="
+      "url": "http://zhuimi.xn--v4q818bf34b.com/moyu/zhuimi?token=zTDS6sim&url="
     },
 
     {
