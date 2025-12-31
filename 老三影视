@@ -343,12 +343,59 @@
       "api": "csp_HBconfig"
     },
     {
-      "key": "drpy_js_豆瓣",
-      "name": "💖豆瓣",
+      "key": "🈵 茶烟书韵 | 解析",
+      "name": "🈵 茶烟书韵 | 解析",
       "type": 3,
-      "api": "csp_Douban",
-     "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
-      "ext": "http://103.45.162.207:25252/仅供测试/lib/douban.json"
+      "api": "csp_Yyets",
+     "jar": "https://www.lintech.work/超大杯/custom_spider_20251016.tms;md5;04b565f0ad83c26c1ecd0ae04f747466",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+      "jxApi": "ElYCCOvkbFlMBDdoMgsgQeiYUdjnDn5vsR1I1xqVakAffnLyIVl1r2kEb21LFxbl4pduStKMCoo/LX/ToRyEqhHBZQYKlkhguNj6FQe/QVip4NAYcgUOVlAhazL9ChRg",
+        "prefix": "Yvd9RzWDG2KNO2hfELQxQHaG5I5x4DRFWyJezOmwQIP7Vikq+Psu5Womw/m0rVuk",
+        "danmu": ""
+      }
+    },
+    {
+      "key": "zuiWanQingFeng",
+      "name": "醉挽清风",
+      "type": 4,
+      "api": "http://我不是.摸鱼儿.com/api/yyutx.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "🈵 醉挽清风 | 解析",
+      "name": "🈵 醉挽清风 | 解析",
+      "type": 3,
+      "api": "csp_Breeze",
+     "jar": "https://www.lintech.work/超大杯/custom_spider_20251016.tms;md5;04b565f0ad83c26c1ecd0ae04f747466",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "jxApi": "ElYCCOvkbFlMBDdoMgsgQeiYUdjnDn5vsR1I1xqVakAffnLyIVl1r2kEb21LFxbl4pduStKMCoo/LX/ToRyEqhHBZQYKlkhguNj6FQe/QVip4NAYcgUOVlAhazL9ChRg",
+        "prefix": "yQemwLacBOL9i5k7nNNyn6Ajp7ci7d+J/yR4KHyM227TGrf3WiEz3lwzLL6Ew7UK",
+        "danmu": "Xuuq7MRbO6OAjCXjQNK/X4HdV2ZIABiW2syArSvt9SD0yn9ZecqA5n7b2gQM5STkTwy3Z0URM3F8V2iNba31tM9jzHoBgYmS2PlEzI/nGL2MD/qP/3L43FunoJb60mxu"
+      }
+    },
+    {
+      "key": "🈵 小满万全 | 解析",
+      "name": "🈵 小满万全 | 解析",
+      "type": 3,
+      "api": "csp_LessIsMore",
+     "jar": "https://www.lintech.work/超大杯/custom_spider_20251016.tms;md5;04b565f0ad83c26c1ecd0ae04f747466",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 1,
+      "ext": {
+        "jxApi": "ElYCCOvkbFlMBDdoMgsgQeiYUdjnDn5vsR1I1xqVakAffnLyIVl1r2kEb21LFxbl4pduStKMCoo/LX/ToRyEqhHBZQYKlkhguNj6FQe/QVip4NAYcgUOVlAhazL9ChRg",
+        "prefix": "aKKG6Ixij3hB8wa0VvK8Yv8/cUiIhuf2KvoTntbT0UL8PKT/aI27Tv2CqIZh9XBK",
+        "danmu": "Xuuq7MRbO6OAjCXjQNK/X4HdV2ZIABiW2syArSvt9SD0yn9ZecqA5n7b2gQM5STkTwy3Z0URM3F8V2iNba31tM9jzHoBgYmS2PlEzI/nGL2MD/qP/3L43FunoJb60mxu"
+      }
     },
        {
       "key": "新腾极4k",
@@ -369,6 +416,7 @@
       "api": "https://gitee.com/ltby1/one/raw/master/lib/drpy2.min.js",
       "ext": "http://14.103.129.80:999/暗黑4k奇迹/lib/暗黑4k奇迹mg.js"
     },
+
  {
       "key": "哔哩哔哩",
       "name": "💖哔哩哔哩4k",
@@ -400,27 +448,12 @@
       "name": "☘️机哥剧圈（4K测试①）☘️",
       "type": 4,
       "api": "http://8088880.xyz:8080/video/libo?token=698d04ebe00a6369",
-
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1
     },
-    {
-      "key": "双星",
-      "name": "☘️机哥剧圈（4K测试②）☘️",
-      "type": 3,
-      "api": "csp_Star2Guard",
-     "jar": "https://13537.kstore.vip/%E6%B5%8B%E8%AF%95/%E5%85%8D%E6%89%AB.webp",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/qk.png",
-        "baidu_cookie": ""
-      }
-    },
+
     {
       "key": "二小",
       "name": "🦢二小┃4K",
@@ -430,14 +463,13 @@
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
-     "ext": {
-         "cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/yunck.txt",
+    "ext": {
+         "cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/qk.png",
         "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
         "tuc_token": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
-        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt",
-       "danmu": true
-      },
-      "timeout": 25
+        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt"
+      }
+
     },
     {
       "key": "双星",
@@ -450,14 +482,13 @@
       "style": {
         "type": "list"
       },
-     "ext": {
+    "ext": {
          "cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/yunck.txt",
         "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
         "tuc_token": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
-        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt",
-       "danmu": true
-      },
-      "timeout": 25
+        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt"
+      }
+
     },
 
     {
@@ -472,10 +503,9 @@
          "cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/yunck.txt",
         "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
         "tuc_token": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
-        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt",
-       "danmu": true
-      },
-      "timeout": 30
+        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt"
+      }
+ 
     },
     {
       "key": "木偶",
@@ -490,10 +520,9 @@
          "cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/yunck.txt",
         "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
         "tuc_token": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
-        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt",
-       "danmu": true
-      },
-      "timeout": 25
+        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt"
+      }
+  
     },
     {
       "key": "小飒",
@@ -508,10 +537,9 @@
          "cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/yunck.txt",
         "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
         "tuc_token": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
-        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt",
-       "danmu": true
-      },
-      "timeout": 25
+        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt"
+      }
+   
     },
     {
       "key": "至臻",
@@ -526,10 +554,9 @@
          "cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/yunck.txt",
         "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
         "tuc_token": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
-        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt",
-       "danmu": true
-      },
-      "timeout": 25
+        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt"
+      }
+  
     },
     {
       "key": "虎斑",
@@ -544,17 +571,15 @@
          "cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/yunck.txt",
         "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
         "tuc_token": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
-        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt",
-       "danmu": true
-      },
-      "timeout": 25
+        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt"
+      }
+    
     },
     {
       "key": "蜡笔",
       "name": "👠蜡笔┃4K",
       "type": 3,
       "api": "csp_LabiGuard",
-     "jar": "https://13537.kstore.vip/%E6%B5%8B%E8%AF%95/%E5%85%8D%E6%89%AB.webp",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
@@ -563,10 +588,9 @@
          "cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/yunck.txt",
         "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
         "tuc_token": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
-        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt",
-       "danmu": true
-      },
-      "timeout": 25
+        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt"
+      }
+
     },
     {
       "key": "多多弹幕",
@@ -581,10 +605,9 @@
          "cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/yunck.txt",
         "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
         "tuc_token": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
-        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt",
-       "danmu": true
-      },
-      "timeout": 25
+        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt"
+      }
+ 
     },
 
     {
@@ -600,10 +623,9 @@
          "cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/yunck.txt",
         "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
         "tuc_token": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
-        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt",
-       "danmu": true
-      },
-      "timeout": 25
+        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt"
+      }
+
     },
     {
       "key": "光影",
@@ -617,10 +639,9 @@
          "cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/yunck.txt",
         "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
         "tuc_token": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
-        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt",
-       "danmu": true
-      },
-      "timeout": 30
+        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt"
+      }
+  
     },
     {
       "key": "SeedHub",
@@ -635,10 +656,9 @@
          "cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/yunck.txt",
         "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
         "tuc_token": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
-        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt",
-       "danmu": true
-      },
-      "timeout": 25
+        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt"
+      }
+ 
     },
     {
       "key": "立播版",
@@ -652,11 +672,11 @@
          "cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/yunck.txt",
         "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
         "tuc_token": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
-        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt",
-       "danmu": true
-      },
-      "timeout": 30
+        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt"
+      }
+   
     },
+
     {
       "key": "竹生",
       "name": "💖免扫网盘①|4K",
@@ -691,9 +711,14 @@
   ],
   "parses": [
     {
+      "name": "自定：请先设置",
+      "type": 1,
+      "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=getuserjx&url="
+    },
+    {
       "name": "自定",
       "type": 1,
-      "url": "http://111.92.242.214/jx.php?url="
+      "url": "http://111.92.242.214/jx2.php?url="
 
     },
     {
@@ -705,7 +730,7 @@
       {
       "name": "自定2",
       "type": 1,
-      "url": "http://125.208.23.251:1314/lunxun/?url="
+      "url": "http://154.219.113.13:5866/jie.php?url="
 
     }
 
