@@ -1,5 +1,5 @@
 {
-  "spider": "http://oss4liview.moji.com/thd_file/2025/12/29/32a803c53515f9bb63248226e947b15f.jpg;md5;00ad7f75377a5a34219d2fab9cebbe57",
+  "spider": "http://oss4liview.moji.com/thd_file/2025/12/31/304721934f09bb6602c3f0a6cd154607.jpg;md5;e8f825112622dc0da002217b29e03bed",
   "wallpaper": "https://xn--11x805d.xn--4kq62z5rby2qupq9ub.xyz/",
   "warningText": "仅作学习交流测试使用，配置或下载后请于24小时之内删除",
   "lives": [
@@ -337,7 +337,7 @@
     },
     {
       "key": "设置",
-      "name": "💖网弹|设置",
+      "name": "网弹|设置",
       "type": 3,
      "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar",
       "api": "csp_HBconfig"
@@ -362,9 +362,15 @@
       "name": "醉挽清风",
       "type": 4,
       "api": "http://我不是.摸鱼儿.com/api/yyutx.php",
+     "jar": "https://www.lintech.work/超大杯/custom_spider_20251016.tms;md5;04b565f0ad83c26c1ecd0ae04f747466",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 0
+      "changeable": 0,
+      "ext": {
+        "jxApi": "ElYCCOvkbFlMBDdoMgsgQeiYUdjnDn5vsR1I1xqVakAffnLyIVl1r2kEb21LFxbl4pduStKMCoo/LX/ToRyEqhHBZQYKlkhguNj6FQe/QVip4NAYcgUOVlAhazL9ChRg",
+        "prefix": "yQemwLacBOL9i5k7nNNyn6Ajp7ci7d+J/yR4KHyM227TGrf3WiEz3lwzLL6Ew7UK",
+        "danmu": "Xuuq7MRbO6OAjCXjQNK/X4HdV2ZIABiW2syArSvt9SD0yn9ZecqA5n7b2gQM5STkTwy3Z0URM3F8V2iNba31tM9jzHoBgYmS2PlEzI/nGL2MD/qP/3L43FunoJb60mxu"
+      }
     },
     {
       "key": "🈵 醉挽清风 | 解析",
@@ -444,6 +450,21 @@
       "ext": "https://zy.sh0o.cn/api.php/provide/vod/from/mgtv/"
     },
     {
+      "key": "双星",
+      "name": "☘️机哥剧圈（4K测试②）☘️",
+      "type": 3,
+      "api": "csp_Star2Guard",
+     "jar": "https://13537.kstore.vip/%E6%B5%8B%E8%AF%95/%E5%85%8D%E6%89%AB.webp",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/qk.png",
+        "baidu_cookie": ""
+      }
+    },
+    {
       "key": "立播",
       "name": "☘️机哥剧圈（4K测试①）☘️",
       "type": 4,
@@ -453,18 +474,18 @@
       "filterable": 1,
       "changeable": 1
     },
-
     {
       "key": "二小",
       "name": "🦢二小┃4K",
       "type": 3,
       "api": "csp_ErXiaoGuard",
+     "jar": "https://13537.kstore.vip/%E6%B5%8B%E8%AF%95/%E5%85%8D%E6%89%AB.webp",
        "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
     "ext": {
-         "cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/qk.png",
+         "cookie": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/qk",
         "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
         "tuc_token": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
         "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt"
@@ -575,6 +596,7 @@
       }
     
     },
+
     {
       "key": "蜡笔",
       "name": "👠蜡笔┃4K",
@@ -718,7 +740,7 @@
     {
       "name": "自定",
       "type": 1,
-      "url": "http://111.92.242.214/jx2.php?url="
+      "url": "http://111.92.242.214/jx.php?url="
 
     },
     {
