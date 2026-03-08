@@ -9,9 +9,9 @@
       "key": "腾讯视频",
       "name": "👑TT｜4K",
       "type": 3,
-     "jar": "http://192.140.163.220:8066/yyxl/svip/lib/0711.gif;md5;05d526179fb3b9f8bb597e632b3a2273",
-      "api": "http://192.140.163.220:8066/yyxl/svip/lib/drpy2.min.js",
-      "ext": "http://192.140.163.220:8066/yyxl/svip/lib/腾讯视频.js"
+     "jar": "http://192.140.163.220:40782/yyxl/svip/lib/0711.gif;md5;05d526179fb3b9f8bb597e632b3a2273",
+      "api": "http://192.140.163.220:40782/yyxl/svip/lib/drpy2.min.js",
+      "ext": "http://192.140.163.220:40782/yyxl/svip/lib/腾讯视频.js"
     },
   
   
@@ -20,9 +20,9 @@
       "key": "芒果视频",
       "name": "👑MM｜4K",
       "type": 3,
-       "jar": "http://192.140.163.220:8066/yyxl/svip/lib/0711.gif;md5;05d526179fb3b9f8bb597e632b3a2273",
-      "api": "http://192.140.163.220:8066/yyxl/svip/lib/drpy2.min.js",
-      "ext": "http://192.140.163.220:8066/yyxl/svip/lib/芒果视频.js"
+       "jar": "http://192.140.163.220:40782/mob/svip.jar",
+      "api": "http://192.140.163.220:40782/yyxl/svip/lib/drpy2.min.js",
+      "ext": "http://192.140.163.220:40782/yyxl/svip/lib/芒果视频.js"
     },
     
 
@@ -564,7 +564,7 @@
     {
       "name": "极速",
       "type": 1,
-      "url": "http://192.140.163.220:6752/api/index?parsesId=27&appid=10000&videoUrl="
+      "url": "http://192.140.163.242:6199/api/index?parsesId=24&appid=10000&videoUrl="
     },
     {
       "name": "极速1",
@@ -871,5 +871,9 @@
     "static-mozai.4gtv.tv"
   ]
 }
+
+
+
+
 
 
