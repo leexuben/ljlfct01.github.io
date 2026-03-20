@@ -98,7 +98,7 @@
       "key": "lvdou",
       "name": "👑 臻彩┃SVIP",
       "type": 3,
-      "api": "http://202.189.11.83:8866/asdasd/py/%E8%A7%82%E5%BD%B1.py",
+      "api": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%A7%82%E5%BD%B1.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0    
@@ -142,16 +142,11 @@
       "ext": "https://zy.jinchancaiji.com/api.php/provide/vod/from/mgtv/"
     },    
     {
-      "key": "Zwqf",
-      "name": "鱼->醉挽｜清风",
-      "type": 3,
-      "api": "csp_Zwqf",
-      "searchable": 1,
-      "ext": {
-        "url": "https://fishapi.wya6.com/fish/qingfeng/moyu.php",
-        "token": "moyu996"
-      },
-      "jar": "https://pubali.oss-cn-hangzhou.aliyuncs.com/20260317/010702_/ZKIO1gGSaJRo/fish03170106.php;md5;30687668c3a53f274232a5aef02c4ced"
+      "key": "zhuanxiang",
+      "name": "🦄专享4K｜追剧",
+      "jar":"https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/tvbox.jar",
+      "type": 4,
+      "api": "http://sspa8.top:99/php/%E4%B8%93%E4%BA%AB.php"
     },
     {
       "key": "爱奇艺",
@@ -174,8 +169,8 @@
       "name": "极速",
       "type": 1,
       "url": "https://nm.4688888.xyz/niuma.php?key=rlvpcW7JQzwe21iG&url="
-   
     }
+
 
   ],
   "rules": [
