@@ -173,7 +173,7 @@
       "name": "👑景天|4K弹幕",
       "type": 3,
       "api": "csp_HBcms10Dou",
-      "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;2e12265008ea7d3220be48b5e98d4c56",
+      "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;91a434f070dc813999130e0853da224b",
       "ext": "https://zy.jinchancaiji.com/api.php/provide/vod/from/qq/"
     },
     {
@@ -181,7 +181,7 @@
       "name": "👑茂茂|4K弹幕",
       "type": 3,
       "api": "csp_HBcms10Dou",
-      "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;2e12265008ea7d3220be48b5e98d4c56",
+      "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;91a434f070dc813999130e0853da224b",
       "ext": "https://zy.jinchancaiji.com/api.php/provide/vod/from/mgtv/"
     },    
     {
@@ -262,7 +262,42 @@
   ],
   "parses": [
     {
-      "name": "极速",
+      "name": "4k极速",
+      "type": 1,
+      "url": "http://mlwl.7766.org:55/api/?key=AL0ipMtOwmEJumj8nX&url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "tucheng",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "yzm",
+          "aliyun",
+          "RJuMao",
+          "bilibili",
+          "1905",
+          "xinvip",
+          "XAL",
+          "qiqi",
+          "XALS",
+          "YuMi-vip"
+        ]
+      }
+    },
+    {
+      "name": "4k极速2",
       "type": 1,
       "url": "http://nm.4688888.xyz/niuma.php?key=ZmJCS96xTaLWnR35G2PD&url="
     }

@@ -114,27 +114,8 @@
       "filterable": 1,
       "ext": "http://cms.9513tv.vip/api.php/app/"
     },
-         {"key":"腾讯弹幕",
-         "name":"🦄腾讯视频｜追剧",
-         "jar":"https://gitee.com/yiwu369/6758/raw/master/jar/spider.jar",
-         "type":3,
-         "api":"https://gitee.com/yiwu369/6758/raw/master/JS/drpy2.min.js",
-         "searchable":1,
-         "quickSearch":0,
-         "changeable":1,
-         "ext":"https://gitee.com/yiwu369/6758/raw/master/JS/腾讯弹幕.js"
-         },
-         {
-         "key":"芒果弹幕",
-         "name":"🦄芒果视频｜追剧",
-         "jar":"https://gitee.com/yiwu369/6758/raw/master/jar/spider.jar",
-          "type":3,
-          "api":"https://gitee.com/yiwu369/6758/raw/master/JS/drpy2.min.js",
-          "searchable":1,
-          "quickSearch":0,
-          "changeable":1,
-           "ext":"https://gitee.com/yiwu369/6758/raw/master/JS/芒果弹幕.js"
-           },
+
+    
             {
       "key": "腾讯弹幕",
       "name": "👑 腾讯┃SVIP",
@@ -150,26 +131,103 @@
       "api": "http://154.8.225.238:9991/cang/lib/drpy2.min.js",
       "ext": "http://154.8.225.238:9991/cang/lib/芒果视频.js"
     },
-    {
-      "key": "爱奇艺",
-      "name": "👑 爱奇艺┃SVIP",
-      "type": 3,
-      "api": "http://154.8.225.238:9991/cang/lib/drpy2.min.js",
-      "ext": "http://154.8.225.238:9991/cang/lib/爱奇艺.js"
-    },
-     {
-      "key": "hipy_js_优酷[官]",
-      "name": "👑 优酷┃SVIP",
-      "type": 3,
-      "api": "http://210.16.170.84:8866/apia/zjys9/drpy_libs/drpy2.min.js",
-      "ext": "https://app.69mini.com/lib1/youku.js"
-    },
+
  {
       "key": "哔哩哔哩",
       "name": "👑哔哩┃SVIP",
       "type": 3,
       "api": "http://mlwl.top:67/lib/drpy2.min.js",
       "ext": "http://mlwl.top:67/lib/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9.js"
+    },
+    {
+      "key": "玩偶",
+      "name": "☘️免扫|玩偶☘️",
+      "type": 4,
+      "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=wogg&filter=true",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "木偶",
+      "name": "☘️免扫|木偶☘️",
+      "type": 4,
+      "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=mogg&filter=true",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "蜡笔",
+      "name": "☘️免扫|蜡笔☘️",
+      "type": 4,
+      "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=labi&filter=true",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "至臻",
+      "name": "☘️免扫|专线☘️",
+      "type": 4,
+      "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=zhizhen&filter=true",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "虎斑",
+      "name": "☘️免扫|虎斑☘️",
+      "type": 4,
+      "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=huban&filter=true",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "快映",
+      "name": "☘️免扫|快映☘️",
+      "type": 4,
+      "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=kuaiying&filter=true",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "讴歌",
+      "name": "☘️免扫|讴歌☘️",
+      "type": 4,
+      "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=ouge&filter=true",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "闪电",
+      "name": "☘️免扫|闪电☘️",
+      "type": 4,
+      "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=shandian&filter=true",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "立播",
+      "name": "☘️免扫|立播☘️",
+      "type": 4,
+      "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=libo&filter=true",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
     },
     {
       "key": "景天",
@@ -187,15 +245,6 @@
       "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;2e12265008ea7d3220be48b5e98d4c56",
       "ext": "https://zy.jinchancaiji.com/api.php/provide/vod/from/mgtv/"
     },
-    {
-      "key": "mihdr",
-      "name": "Pan - 1 | 免扫4K",
-      "type": 3,
-      "jar": "https://file.icve.com.cn/file_doc/476/1015/771FDC862C1EE37E6D13C0B7FB840E78.jar;md5;771fdc862c1ee37e6d13c0b7fb840e78",
-      "api": "csp_ZC4K",
-      "ext": "YUhSMGNEb3ZMekV6T1M0eU1qUXVNakV6TGpJME1Eb3hNak14TWk5aGNHa3VjR2h3UDNOcGRHVTliV2xvWkhJakl5TnRhV2hrY2c9PQ=="
-    },
-
     {
       "key": "👑 火狐 | T4",
       "name": "🚀 火狐 | T4",
@@ -236,9 +285,45 @@
   ],
   "parses": [
     {
+      "name": "4k极速",
+      "type": 1,
+      "url": "http://nm.4688888.xyz/niuma.php?key=ZmJCS96xTaLWnR35G2PD&url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "tucheng",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "yzm",
+          "aliyun",
+          "RJuMao",
+          "bilibili",
+          "1905",
+          "xinvip",
+          "XAL",
+          "qiqi",
+          "XALS",
+          "YuMi-vip"
+        ]
+      }
+    },
+
+    {
       "name": "4k极速1",
       "type": 1,
-      "url": "http://154.8.225.238:9991/api/index?parsesId=14&appid=10000&videoUrl=",
+      "url": "http://mlwl.7766.org:55/api/?key=AL0ipMtOwmEJumj8nX&url=",
       "ext": {
         "flag": [
           "qq",
@@ -274,14 +359,18 @@
     {
       "name": "4k极速2",
       "type": 1,
-      "url": "http://154.8.225.238:9991/api/index?parsesId=13&appid=10000&videoUrl="
+      "url": "http://154.8.225.238:9991/api/index?parsesId=14&appid=10000&videoUrl="
     },
     {
       "name": "4k极速3",
       "type": 1,
+      "url": "http://154.8.225.238:9991/api/index?parsesId=13&appid=10000&videoUrl="
+    },
+    {
+      "name": "4k极速4",
+      "type": 1,
       "url": "http://154.8.225.238:9991/api/index?parsesId=4&appid=10000&videoUrl="
     }
-
   ],
   "rules": [
     {
