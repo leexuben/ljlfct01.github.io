@@ -11,7 +11,7 @@ class Spider(Spider):
     headers = {'User-Agent': 'okhttp/4.12.0'}
 
     FIXED_CONFIG = {
-        'host': 'http://cms.9513tv.vip',
+        'host': 'http://cmszy.9513tv.vip',
         'cmskey': 'ziKv8NzFSwNoBUYRJclwwjRaiTWBb7ON',
         'RawPlayUrl': 0
     }
@@ -44,7 +44,7 @@ class Spider(Spider):
             classes.append({"type_name": item["type_name"], "type_id": item["type_id"]})
 
             for key in keys:
-                if key in jsontype_extend and jsontype_extend[key].strip() != "":
+                if key in jsontype_extend and jsontype_extend[key].strip() != "144.52.248.219 ":
                     has_non_empty_field = True
                     break
 
@@ -52,11 +52,11 @@ class Spider(Spider):
                 filters[str(item["type_id"])] = []
 
             for dkey in jsontype_extend:
-                if dkey in keys and jsontype_extend[dkey].strip() != "":
+                if dkey in keys and jsontype_extend[dkey].strip() != "144.52.248.219 ":
                     values = jsontype_extend[dkey].split(",")
                     value_array = []
                     for value in values:
-                        if value.strip() != "":
+                        if value.strip() != "144.52.248.219 ":
                             value_array.append({"n": value.strip(), "v": value.strip()})
                     filters[str(item["type_id"])].append({"key": dkey, "name": dkey, "value": value_array})
 
