@@ -80,40 +80,44 @@
       }
     },
 
-  {
-      "key": "腾讯弹幕",
+    {
+      "key": "qq",
       "name": "👑 腾讯┃SVIP",
+      "type": 4,
+      "api": "http://fanhuays.top:8100/api.php?uid=fanhua&id=qq",
       "searchable": 1,
-      "type": 3,
-      "api": "http://154.8.225.238:9991/cang/lib/drpy2.min.js",
-      "ext": "http://154.8.225.238:9991/cang/lib/腾讯弹幕.js"
+      "quickSearch": 1,
+      "changeable": 0
     },
-      {
-      "key": "芒果视频",
+    {
+      "key": "mgtv",
       "name": "👑 芒果┃SVIP",
-      "type": 3,
-      "api": "http://154.8.225.238:9991/cang/lib/drpy2.min.js",
-      "ext": "http://154.8.225.238:9991/cang/lib/芒果视频.js"
+      "type": 4,
+      "api": "http://fanhuays.top:8100/api.php?uid=fanhua&id=mgtv",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
     },
-
-
- {
-      "key": "哔哩哔哩",
+    {
+      "key": "bilibili",
       "name": "👑哔哩┃SVIP",
-      "type": 3,
-      "api": "http://mlwl.top:67/lib/drpy2.min.js",
-      "ext": "http://mlwl.top:67/lib/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9.js"
+      "type": 4,
+      "api": "http://fanhuays.top:8100/api.php?uid=fanhua&id=bilibili",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
     },
     {
       "key": "ZX",
       "name": "👑ZX┃4K",
       "type": 4,
-      "api": "http://115.191.55.109:9097/api/%E4%BA%BA%E4%BA%BA%E5%BD%B1%E8%A7%86[%E4%BC%98]?pwd=50721480be241243&filter=true",
+      "api": "http://115.191.55.109:9097/api/%E4%BA%BA%E4%BA%BA%E5%BD%B1%E8%A7%86[%E4%BC%98]?pwd=50721480be241243",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1
     },
+
     {
       "key": "Zwqf",
       "name": "👑醉挽｜清风",
@@ -130,7 +134,7 @@
       "key": "玩偶",
       "name": "☘️免扫|玩偶☘️",
       "type": 4,
-      "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=wogg&filter=true",
+      "api": "http://fanhuays.top:8100/api.php?uid=fanhua&id=wogg&filter=true",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -140,7 +144,7 @@
       "key": "木偶",
       "name": "☘️免扫|木偶☘️",
       "type": 4,
-      "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=mogg&filter=true",
+      "api": "http://fanhuays.top:8100/api.php?uid=fanhua&id=mogg&filter=true",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -150,7 +154,7 @@
       "key": "蜡笔",
       "name": "☘️免扫|蜡笔☘️",
       "type": 4,
-      "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=labi&filter=true",
+      "api": "http://fanhuays.top:8100/api.php?uid=fanhua&id=labi&filter=true",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -160,7 +164,7 @@
       "key": "至臻",
       "name": "☘️免扫|专线☘️",
       "type": 4,
-      "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=zhizhen&filter=true",
+      "api": "http://fanhuays.top:8100/api.php?uid=fanhua&id=zhizhen&filter=true",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -170,7 +174,7 @@
       "key": "虎斑",
       "name": "☘️免扫|虎斑☘️",
       "type": 4,
-      "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=huban&filter=true",
+      "api": "http://fanhuays.top:8100/api.php?uid=fanhua&id=huban&filter=true",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -180,7 +184,7 @@
       "key": "快映",
       "name": "☘️免扫|快映☘️",
       "type": 4,
-       "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=kuaiying",
+       "api": "http://fanhuays.top:8100/api.php?uid=fanhua&id=kuaiying&filter=true",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -191,7 +195,7 @@
       "key": "讴歌",
       "name": "☘️免扫|讴歌☘️",
       "type": 4,
-      "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=ouge&filter=true",
+      "api": "http://fanhuays.top:8100/api.php?uid=fanhua&id=ouge&filter=true",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -201,7 +205,7 @@
       "key": "闪电",
       "name": "☘️免扫|闪电☘️",
       "type": 4,
-      "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=shandian&filter=true",
+      "api": "http://fanhuays.top:8100/api.php?uid=fanhua&id=shandian&filter=true",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -211,7 +215,7 @@
       "key": "立播",
       "name": "☘️免扫|立播☘️",
       "type": 4,
-      "api": "http://zb.fanhuays.top:8100/api.php?uid=fanhua&id=libo&filter=true",
+      "api": "http://fanhuays.top:8100/api.php?uid=fanhua&id=libo&filter=true",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
