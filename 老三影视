@@ -80,6 +80,18 @@
       }
     },
 
+
+        {
+            "key": "lvdou",
+            "name": "👑全能┃4k",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "jar": "https://cdn.waimaimingtang.com/file/images/bwc/20251023214920-f8567c1b85.jar;md5;6ea33c17933c910130d2905dd23f248d",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://210.16.170.113:8999/api.php/app/"
+        },
     {
       "key": "qq",
       "name": "👑 腾讯┃SVIP",
@@ -107,17 +119,17 @@
       "quickSearch": 1,
       "changeable": 0
     },
+
     {
       "key": "ZX",
-      "name": "👑ZX┃4K",
+      "name": "☘️ZX┃4K☘️",
       "type": 4,
-      "api": "http://115.191.55.109:9097/api/%E4%BA%BA%E4%BA%BA%E5%BD%B1%E8%A7%86[%E4%BC%98]?pwd=50721480be241243",
+      "api": "http://115.191.55.109:9097/api/%E4%BA%BA%E4%BA%BA%E5%BD%B1%E8%A7%86[%E4%BC%98]?pwd=50721480be241243&filter=true",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1
     },
-
     {
       "key": "Zwqf",
       "name": "👑醉挽｜清风",
@@ -134,7 +146,7 @@
       "key": "玩偶",
       "name": "☘️免扫|玩偶☘️",
       "type": 4,
-      "api": "http://fanhuays.top:8100/api.php?uid=fanhua&id=wogg&filter=true",
+      "api": "https://qp.69mini.com/api.php/app/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -324,6 +336,11 @@
           "YuMi-vip"
         ]
       }
+    },
+    {
+      "name": "4k极速2",
+      "type": 1,
+      "url": "http://shenmijx.vip.cpolar.cn/%E5%85%AC%E5%BC%80/%E7%81%AB%E7%84%B0%E4%B9%8B%E5%B1%B1.php?url="
     }
 
 
