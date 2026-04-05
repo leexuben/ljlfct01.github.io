@@ -153,7 +153,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "http://101.201.171.207:802/api.php/app/index_video?token="
+            "ext": "http://101.201.171.207:801/api.php/app/"
         },
 
 
@@ -264,11 +264,13 @@
       "name": "臻彩4k专线",
       "type": 1,
       "url": "http://119.91.10.69:168/api/index?parsesId=3248&appid=10000&videoUrl="
+    },
+   {
+      "name": "臻彩4k专线1",
+      "type": 1,
+      "url": "http://38.76.218.7:12121/lvdou/getck.php?url="
     }
 
-
- 
- 
   ],
   "rules": [
     {
