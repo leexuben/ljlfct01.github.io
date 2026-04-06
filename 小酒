@@ -36,7 +36,7 @@
   {
       "name": "🐅易发TV",
       "type": 0,
-      "url": "https://raw.bgithub.xyz/fafa002/yf2025/refs/heads/main/yiyifafa.txt",
+      "url": "http://tvv.tw/github.com/fafa002/yf2025/blob/main/yiyifafa.txt",
       "playerType": 1,
       "ua": "okhttp/3.15",
       "epg": "http://epg.hackserver.net/epg.php",
@@ -263,9 +263,8 @@
    {
       "name": "臻彩4k专线",
       "type": 1,
-      "url": "http://119.91.10.69:168/api/index?parsesId=3248&appid=10000&videoUrl="
+      "url": "http://183.136.134.152:588//api/index?parsesId=23&appid=10000&videoUrl="
     }
-
 
   ],
   "rules": [
