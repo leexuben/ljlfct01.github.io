@@ -61,6 +61,7 @@
   ],
   "sites": [
 
+  
     {
       "key": "hipy_js_腾云驾雾[官]",
       "name": "藤藤-（臻彩视界4K）",
@@ -82,6 +83,7 @@
       "api": "http://183.136.134.152:250/lib/drpy2.min.js",
       "ext": "http://183.136.134.152:250/lib/mg.js"
     },
+
     {
       "key": "JD",
       "name": "热播4K网盘",
@@ -106,8 +108,7 @@
       }
     },
 
-
-{
+    {
       "key": "官方4K专线",
       "name": "🚀┃小苹果专线",
       "type": 3,
@@ -135,7 +136,7 @@
       "name": "👑景天|4K弹幕",
       "type": 3,
       "api": "csp_HBcms10Dou",
-      "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;640309e2b59d0ebbfd5453b2e2f19835",
+      "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;120e148ffba423c7056197a0d7ca486a",
       "ext": "https://zy.jinchancaiji.com/api.php/provide/vod/from/qq/"
     },
     {
@@ -143,10 +144,9 @@
       "name": "👑茂茂|4K弹幕",
       "type": 3,
       "api": "csp_HBcms10Dou",
-      "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;640309e2b59d0ebbfd5453b2e2f19835",
+      "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;120e148ffba423c7056197a0d7ca486a",
       "ext": "https://zy.jinchancaiji.com/api.php/provide/vod/from/mgtv/"
     },
-
     {
       "key": "hipy_js_优酷[官]",
       "name": "优优-（臻彩视界2K）",
@@ -413,22 +413,20 @@
     }
   ],
   "parses": [
-
+ 
     {
       "name": "4k极速",
       "type": 1,
-      "url": "http://116.62.133.86:56682/api/?key=oDE5dyA0Xosa3OtRzV&url="
+      "url": "http://61.184.23.217:6163/api/index?parsesId=4&appid=10002&videoUrl="
     },
     {
       "name": "4k极速1",
       "type": 1,
-      "url": "http://154.8.225.238:9991/api/index?parsesId=14&appid=10000&videoUrl="
-    },
-    {
-      "name": "4k极速2",
-      "type": 1,
-      "url": "http://42.121.106.99:166/api/?key=ec03ea4ecf2f9cf761656504f180aec2&url="
+      "url": "http://210.16.170.113:8845/api/index?parsesId=4&appid=10000&videoUrl="
     }
+
+
+
  
 
  
