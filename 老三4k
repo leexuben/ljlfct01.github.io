@@ -1,7 +1,7 @@
 {
-  "spider": "http://183.136.134.152:250/xsxs(1).jar",
-  "wallpaper": "https://gitee.com/zhouyadong7033/box/raw/master/JS/Y3.webp",
-  "warningText": "欢迎使用火焰TV，祝您观影愉快",
+  "notice": "欢迎使用老三4k",
+  "spider": "http://gh.llkk.cc/https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar",
+  "wallpaper": "无",
   "lives": [
 
     {
@@ -110,7 +110,34 @@
         "ver": 3
       }
     },
-
+    {
+      "key": "端木app",
+      "name": "🎬端木┃秒播",
+      "type": 3,
+      "playerType": 2,
+      "api": "https://raw.giteeusercontent.com/monosodium-glutamate/wjwj/raw/master/jars/duanmu.js",
+      "ext": {
+        "host": "http://154.219.117.219:8080/dev_webvip",
+        "NBY": [
+          "http://43.248.100.143:6888/api/index.php?key=fvMh1lGDYHrnvkUBdM&url=",
+          "https://api.nbyjson.top:7788/api/?key=MxbRUfgjyMy25MGhJQ&url=",
+          "https://api.nbyjson.top:7788/api/?key=YD8ky98dl5xbCVeEZV&url="
+        ]
+      }
+    },
+    {
+      "key": "祯映",
+      "name": "🍄祯映┃app",
+      "type": 3,
+      "api": "csp_AppGet",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "url": "https://pgcms.zy4k.app",
+        "dataKey": "mZ8tX2xA1iS9nN3y",
+        "dataIv": "mZ8tX2xA1iS9nN3y"
+      }
+    },
 
 
     {
@@ -141,18 +168,22 @@
       "url": "Web"
     },
      {
-      "name": "4k直连1",
+      "name": "腾讯4k",
       "type": 1,
-      "url": "https://xy.183933.xyz/xiayede.php?key=hy1966&url="
+      "url": "https://fanghu.52xiaobai.cn/qq4k/qq4k.php?url="
     },
-
-     {
-      "name": "4k直连2",
+   {
+      "name": "芒果4k",
       "type": 1,
-      "url": "http://mlwl.7766.org:55/api/?key=rzkeh3pK5FnTtEzNCW&url="
+      "url": "https://fanghu.52xiaobai.cn/mg4k/mg4k.php?url="
     },
      {
-      "name": "4k直连3",
+      "name": "腾讯芒果4k",
+      "type": 1,
+      "url": "https://129jx.aidianying.sbs/api/?key=5873617593D0C2H&url="
+    },
+     {
+      "name": "腾讯芒果哔哩4k",
       "type": 1,
       "url": "http://61.184.23.217:6897/api/?key=7d54b644b101a57719a666ca4fc50854&url="
     }
