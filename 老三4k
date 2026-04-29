@@ -56,7 +56,7 @@
       "key": "NewNoxZy",
       "type": 3,
       "api": "csp_NewNoxAmns",
-      "jar": "http://mytv6688.xyz/aowu/bfdb--cvdvds.png;md5;7370a5264d625d5eedc0f99ba3c8a18d",
+      "jar": "https://raw.giteeusercontent.com/monosodium-glutamate/wjwj/raw/master/jars/嗷呜.jar;md5;7370a5264d625d5eedc0f99ba3c8a18d",
       "searchable": 1,
       "filterable": 1,
       "quickSearch": 1,
@@ -100,15 +100,15 @@
       "api": "csp_App3Q"
     },
     {
-      "key": "快映",
-      "name": "🐮快映┃app",
+      "name": "🎪伊外┃秒播",
+      "key": "YIys",
       "type": 3,
-      "changeable": 0,
-      "api": "https://raw.giteeusercontent.com/monosodium-glutamate/wjwj/raw/master/jars/Appfox.min.js",
-      "ext": {
-        "host": "https://www.baidukuaiy.top",
-        "ver": 3
-      }
+      "api": "csp_YIysAmns",
+      "jar": "https://raw.giteeusercontent.com/monosodium-glutamate/wjwj/raw/master/jars/嗷呜.jar;md5;7370a5264d625d5eedc0f99ba3c8a18d",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "changeable": 1
     },
     {
       "key": "端木app",
@@ -137,15 +137,6 @@
         "dataKey": "mZ8tX2xA1iS9nN3y",
         "dataIv": "mZ8tX2xA1iS9nN3y"
       }
-    },
-    {
-      "key": "🐍 geek",
-      "name": "🐍 猎手 | PY",
-      "type": 3,
-      "api": "http://iptv.kuaidou.tv:13000/api/v1/box/iptv/free/provide/23/vod?sessionId=&ac=",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
     },
 
     {
