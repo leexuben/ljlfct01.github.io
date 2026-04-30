@@ -38,6 +38,22 @@
       "ext": "http://183.136.134.152:250/lib/bili.js"
     },
    {
+      "key": "金牌",
+      "name": "♨️金牌｜4K线路",
+      "type": 3,
+      "api": "csp_AppQi",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "url": "https://qj4.catbb.xyz",
+        "dataKey": "eecbio48dsq13kkk",
+        "dataIv": "eecbio48dsq13kkk",
+        "search": "searchList4",
+        "init": "initV122",
+        "ua": "okhttp/3.10.0"
+      }
+    },
+   {
       "key": "星空",
       "name": "🍿星空┃4K",
       "type": 3,
@@ -166,11 +182,16 @@
       "type": 3,
       "url": "Web"
     },
- 
-     {
+      {
       "name": "极速4k",
       "type": 1,
       "url": "http://61.184.23.217:6897/api/?key=7d54b644b101a57719a666ca4fc50854&url="
+    },
+  
+     {
+      "name": "极速4k1",
+      "type": 1,
+      "url": "http://jiexi.fc8001.top/OShStfcsWZhzDTap.php?url="
     }
   
   ],
