@@ -13,6 +13,15 @@
       "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}",
       "logo": "http://diyp2.112114.xyz/logo/{name}.png"
     },
+   {
+      "name": "魔鬼高清直播",
+      "type": 0,
+      "url": "https://pan.tenire.com/down.php/8f4d44220555d8090879cb45224b861e.txt",
+      "ua": "okhttp/3.15",
+      "playerType": 1,
+      "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}",
+      "logo": "http://diyp2.112114.xyz/logo/{name}.png"
+    },
     {
       "name": "🐅港台",
       "type": 0,
@@ -43,6 +52,13 @@
   ],
   "sites": [
     {
+      "key": "guoguo",
+      "name": "芒芒-（臻彩视界4K）",
+      "type": 3,
+      "api": "http://183.136.134.152:250/lib/drpy2.min.js",
+      "ext": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%8A%92%E6%9E%9C.js"
+    },
+    {
       "key": "hipy_js_腾云驾雾[官]",
       "name": "藤藤-（臻彩视界4K）",
       "type": 3,
@@ -50,20 +66,13 @@
       "ext": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%85%BE%E8%AE%AF.js"
     },
     {
-      "key": "guoguo",
-      "name": "芒芒-（臻彩视界4K）",
-      "type": 3,
-      "api": "http://183.136.134.152:250/lib/drpy2.min.js",
-      "ext": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%8A%92%E6%9E%9C.js"
-    },
-
-    {
       "key": "哔哩视频",
       "name": "哔哩-（臻彩视界4K）",
       "type": 3,
       "api": "http://183.136.134.152:250/lib/drpy2.min.js",
       "ext": "http://183.136.134.152:250/lib/bili.js"
     },
+
     {
       "key": "hipy_js_百忙无果[官]",
       "name": "神兽┃神兽臻彩4K",
@@ -272,21 +281,7 @@
 
   ],
   "parses": [
-    {
-      "name": "WEB解析",
-      "type": 0,
-      "url": ""
-    },
-    {
-      "name": "Json聚合",
-      "type": 3,
-      "url": "Demo"
-    },
-    {
-      "name": "Web聚合",
-      "type": 3,
-      "url": "Web"
-    },
+
     {
       "name": "极速4k",
       "type": 1,
